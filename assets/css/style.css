@@ -28,13 +28,15 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     background: url('../img/cleotopper.jpg') center/cover no-repeat;
-    width:100% ;
     background-attachment: fixed;
     position: relative;
+    width: 100vw;
+    
 }
 
             /* Header */
@@ -64,6 +66,7 @@ header p {
 .cleo div {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 265px;
     margin-left: 130px;
     margin-bottom: 200px;
@@ -188,7 +191,6 @@ span {
 
 .family {
     background: url('../img/kid.png')center/cover no-repeat, url('../img/see.png')center/cover no-repeat, white;
-    width: 100%;
     height: 980px;
 }
 
@@ -203,6 +205,7 @@ span {
 .improve {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     margin: 150px 0px 40px 130px;
     font-family: 'inter';
     font-size: 2.9rem;

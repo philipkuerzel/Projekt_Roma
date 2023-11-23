@@ -1,0 +1,83 @@
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        font-size: 10px; 
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        margin-right: 20px; 
+    }
+
+    header img {
+        width: 8%; 
+    }
+
+    .cleo div {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .cleo h1 {
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+
+    .cleo h2 {
+        font-size: 1.8rem;
+    }
+
+    .cleo p {
+        font-size: 1.8rem;
+    }
+
+    .greentext div {
+        margin-left: 0;
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    .facts {
+        width: 100%;
+        margin-left: 20px;
+        gap: 50px;
+        margin-bottom: 100px;
+    }
+
+    .million img,.paid img,.insurance img {
+        width: 10%;
+        margin-bottom: 20px;
+    }
+
+    .number {
+        font-size: 4.5rem;
+    }
+
+    .domwork,.paid,.insurance {
+        font-size: 2.2rem;
+    }
+
+    .paid p:nth-of-type(2) {
+        font-size: 4rem;
+    }
+
+    .workers,.bw__small {
+        font-size: 1.5rem;
+        margin-left: 0;
+        width: 80%;
+    }
+
+    .family {
+        height: 500px;
+    }
+
+    .improve {
+        margin: 30px 0px 15px 20px;
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+}

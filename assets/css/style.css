@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'santio';
+    src: url('../fonts/Santio\ regular.ttf');
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'dafoe';
+    src: url('../fonts/MrDafoe-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+            /* Global Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'santio';
+}
+
+body {
+    background: url('../img/cleotopper.jpg') center/cover no-repeat;
+    width:100% ;
+    background-attachment: fixed;
+    position: relative;
+}
+
+            /* Header */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+header p {
+    color: white;
+    font-family:'roboto' ;
+}
+
+            /* Main */
+
+.cleo div {
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    margin-left: 130px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.cleo h1 {
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 150px;
+}
+
+.cleo h2 {
+    color: #E7BC0E;
+    font-family: 'dafoe';
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+
+.cleo p {
+    color: #E7BC0E;
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 100px;
+    position: absolute;
+    left: 230px;
+    bottom: -115px;
+}
+
+.greentext div {
+    margin-left: 230px;
+    width: 490px;
+    color: #6BC1A3;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 400px;
+}
+
+.greentext div span {
+    color: white;
+}
+
+.facts {
+    display: flex;
+    flex-direction: column;
+    width: 790px;
+    margin-left: 260px;
+    gap: 260px;
+    margin-bottom: 270px;
+}
+
+.million div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    color: #E7BC0E;
+    font-size: 8.6rem;
+    font-weight: 700;
+}
+
+.domwork {
+    color: #E7BC0E;
+    font-size: 3.25rem;
+    margin-bottom: 200px;
+}
+
+span {
+    background-color: #00000033;
+    font-size: 2.6rem;
+    color: white;
+}
+
+.paid {
+    font-size: 3.25rem;
+    color: #CB91B6;
+}
+
+.paid p:nth-of-type(2) {
+    font-size: 5.9rem;
+}
+
+.insurance {
+    display: flex;
+    flex-direction: column;
+    color: #6BC1A3;
+    font-size: 6.9rem;
+}
+
+.insurance p:nth-of-type(2) {
+    font-size: 3.2rem;
+}
+
+.workers {
+    color: #7EB8E1;
+    font-size: 2.2rem;
+    margin-left: 10px;
+    width: 493px;
+    line-height: 3rem;
+}
+
+.bw__small {
+    font-size: 2.2rem;
+}
+
+.family {
+    background: url('../img/kid.png'), lightgray 0px 0px  no-repeat;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.improve {
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0px 40px 130px;
+    font-family: 'inter';
+    font-size: 2.9rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    width: 290px;
+    gap: 40px;
+}
+
+.button a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'roboto';
+    font-size: 1.5rem;
+    border: 1px solid white;
+    margin-left: 130px;
+    padding: 10px 15px;
+}
+
+.button a:hover {
+    box-shadow: 10px 10px white;
+}
+
+            /* Footer */
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 0.75rem;
+    font-family: 'roboto';
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'inter';
+    color: #6BC1A3;
+}

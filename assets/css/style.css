@@ -26,6 +26,10 @@
     font-family: 'santio';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: url('../img/cleotopper.jpg') center/cover no-repeat;
     width:100% ;
@@ -41,11 +45,18 @@ header {
     height: 50px;
     align-items: center;
     margin-right: 50px;
+    gap: 20px;
+}
+
+header img {
+    width: 1.5%;
 }
 
 header p {
     color: white;
-    font-family:'roboto' ;
+    font-family:'roboto';
+    border-bottom:1px solid #E7BC0E;
+    padding-bottom: 5px;
 }
 
             /* Main */
@@ -110,7 +121,11 @@ header p {
     margin-bottom: 270px;
 }
 
-.million div:nth-child(1) {
+.million img {
+    width: 15%;
+    margin-bottom: 20px;
+}
+.number {
     display: flex;
     flex-direction: column;
     color: #E7BC0E;
@@ -121,7 +136,6 @@ header p {
 .domwork {
     color: #E7BC0E;
     font-size: 3.25rem;
-    margin-bottom: 200px;
 }
 
 span {
@@ -135,6 +149,11 @@ span {
     color: #CB91B6;
 }
 
+.paid img {
+    width: 15%;
+    margin-bottom: 20px;
+}
+
 .paid p:nth-of-type(2) {
     font-size: 5.9rem;
 }
@@ -144,6 +163,11 @@ span {
     flex-direction: column;
     color: #6BC1A3;
     font-size: 6.9rem;
+}
+
+.insurance img {
+    width: 15%;
+    margin-bottom: 20px;
 }
 
 .insurance p:nth-of-type(2) {
@@ -163,7 +187,9 @@ span {
 }
 
 .family {
-    background: url('../img/kid.png'), lightgray 0px 0px  no-repeat;
+    background: url('../img/kid.png')center/cover no-repeat, url('../img/see.png')center/cover no-repeat, white;
+    width: 100%;
+    height: 980px;
 }
 
 .help {
@@ -209,6 +235,7 @@ footer {
     color: white;
     font-size: 0.75rem;
     font-family: 'roboto';
+    padding-bottom: 10px;
 }
 
 footer a {
